@@ -1,12 +1,21 @@
-import React from 'react';
-import { Container } from 'react-bootstrap'
+import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
-    return ( 
-        <Container>
-            <header>Header</header>
-        </Container>
-     );
-}
- 
+	return (
+		<header>
+			<Container className='bg-light text-dark'>
+				<Navbar variant='light'>
+					<Navbar.Brand href='#home'>Navbar</Navbar.Brand>
+					<Nav className='mr-auto'>
+						<Nav.Link href='#home'>Home</Nav.Link>
+						<Nav.Link href='#features'>Features</Nav.Link>
+						<Nav.Link href='#pricing'>Pricing</Nav.Link>
+					</Nav>
+				</Navbar>
+			</Container>
+		</header>
+	);
+};
+
 export default Header;
