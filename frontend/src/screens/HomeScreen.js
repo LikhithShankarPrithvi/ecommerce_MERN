@@ -7,7 +7,7 @@ const HomeScreen = () => {
 	return (
 		<>
 			<Container>
-				<h1 className='my-1 p-1'> Latest Products</h1>
+				<h1 className='my-3'> Latest Products</h1>
 				<Row>
 					{products.map((product) => (
 						<Col sm={12} md={6} lg={4} xl={3}>
