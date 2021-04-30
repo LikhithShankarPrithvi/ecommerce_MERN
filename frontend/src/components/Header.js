@@ -14,10 +14,10 @@ const Header = () => {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='ml-auto'>
 							<LinkContainer to='/features'>
-								<Nav.Link href='#features'>Features</Nav.Link>
+								<Nav.Link>Features</Nav.Link>
 							</LinkContainer>
 							<LinkContainer to='/pricing'>
-								<Nav.Link href='#pricing'>Pricing</Nav.Link>
+								<Nav.Link>Pricing</Nav.Link>
 							</LinkContainer>
 						</Nav>
 					</Navbar.Collapse>
